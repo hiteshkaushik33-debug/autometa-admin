@@ -15,3 +15,5 @@ Customer conversations are not exposed. Billing, automation and production featu
 Authentication uses a server proxy and HttpOnly cookies; tokens are not stored in browser storage.
 APP_ORIGIN must match this app's public URL for mutation/CSRF checks. Only super-admin accounts
 can sign in here. See ../backend/docs/local-testing.md for the full test sequence.
+
+fixed : 0.1
